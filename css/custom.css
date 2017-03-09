@@ -1,0 +1,358 @@
+/*topMenu Start*/
+.nav>.col6>ul>li{
+   padding: 25px 15px;
+ }
+.nav>.col6>ul>li>a:hover{
+  color:black;
+}
+.nav>.col6>ul>li>a{
+   color: #666;
+
+}
+.nav>.col6 {
+	margin-left: 196px;
+
+}
+.nav>.col6>ul>li{
+	list-style: none;
+	float: left;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.logo>.col2{
+	padding: 25px 0;
+}
+.logo>.col2>a>span{
+	display: inline-block;
+	padding-right:18px;
+	color:#5f5f5f;
+	font-size: 18px;
+}
+#topMenu{
+	height:80px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+.logo>.col2>a>.l1{
+	font-weight: 900;
+}
+.logo>.col2>a>.l2{
+    font-weight: 700;
+}
+.logo>.col2>a>.l3{
+	font-weight: 400;
+}
+.logo>.col2>a>.l4{
+   font-weight: 300;
+}
+.logo>.col2>a>.l5{
+	font-weight: 100;
+}
+.topSearch>.col2{
+	margin-top: 12px;
+}
+.topSearch>.col2>input[type=text]{
+	width: 130px;
+	border:transparent;
+	font-size: 12px;
+	padding:13px 0;
+	transition: width 0.4s ease-in-out;
+}
+.topSearch>.col2{
+	width: 17%;
+   	border-left: 1px solid #ddd;
+    text-align: center;
+}
+.topSearch>.col2>input[type=text]:focus {
+    width: 80%;
+}
+/*topMenu end*/
+
+/*content*/
+#content{
+	background: url(../photo/slide1.jpg) no-repeat;
+	height: 558px;
+	width: 100%;
+    position: relative;
+	background-size: cover;
+}
+#content>.row>span>.fir{
+	font-size: 65px;
+	padding-right:12px;
+	float: left;
+	font-weight: 800;
+	color:#333333;
+}
+#content>.row>span>.sec{
+	font-size: 65px;
+	padding-right:12px;
+	float: left;
+	font-weight: 100;
+	color:#5f5f5f;
+}
+#content>.row>span>.th{
+	font-size: 65px;
+	padding-right:12px;
+	float: left;
+	font-weight:100;
+	color:#7f7777;
+}
+#content>.row>span{
+position:absolute;
+top:150px;
+left: 100px;
+}
+#content>.row>span>.read{
+	width: 54%;
+     font-size: 20px;
+     color:#333333;
+     position: relative;
+     top:15px;
+ }
+ #content>.row>.nextPrew>.col10>.conPrev{
+  padding: 30px 30px;
+  margin-right: 2px;
+  top:150px;
+  color:#666666;
+  cursor: pointer;
+  background: white;
+}
+ #content>.row>.nextPrew>.col10>.conNext{
+  padding: 30px 30px;
+  margin-right: 2px;
+  top:150px;
+  color:#666666;
+  cursor: pointer;
+  background: white;
+}
+ #content>.row>.nextPrew>.col10>.conPrev:hover{
+background: #333333;
+color: white;
+}
+ #content>.row>.nextPrew>.col10>.conNext:hover{
+background: #333333;
+color:white;
+}
+
+#content>.row>.nextPrew>.col10{
+	position: relative;
+	top: 400px;
+	left:100px;
+}
+#content>.row>.nextPrew>.col10>.miniSlide>.col1>img{
+    height: 65px;
+}
+.miniSlide{
+	cursor: pointer;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.15)
+}
+#content>.row>.nextPrew>.col10>.miniSlide>.col1{
+position: relative;
+left: 260px;
+}
+#content>.row>.nextPrew>.col10>.conMore>.col2{
+	padding: 30px 30px;
+	position: relative;
+	font-size: 14px;
+	cursor: pointer;
+	color:#333333;
+	font-weight: bold;
+    left:480px;
+	background: white;
+}
+#content>.row>.nextPrew>.col10>.conMore>.col2:hover{
+	background: #333333;
+	color:#fff;
+}
+.myCol{
+	margin-left: 15px;
+}
+/*content end*/
+
+/*Customize*/
+
+#customize>.wrapper>.row>.col3>b{
+    border-bottom: 1px solid #ddd;
+	padding:20px 3px;
+	float: left;
+	color:#6c6c6c;
+	font-size: 18px;
+}
+#customize>.wrapper>.row>.col3>p{
+	float: left;
+	color:#6c6c6c;
+	font-size: 18px;
+	padding:20px 3px;
+}
+#customize>.wrapper>.row>.col3>span{
+    font-size: 14px;
+	padding:20px 3px;
+	float: left;
+	color:#6c6c6c;
+}
+#customize>.wrapper>.row>.col3{
+padding: 50px 10px;
+}
+/*customize end*/
+   
+   /*clean*/
+#clean{
+   	background-image: url(../photo/cleanph.jpg);
+    position: relative;
+    height: 575px;
+    background-size: cover;
+   }
+#clean>.col12>.wrapper>.row> p>b{
+margin-right: 10px;
+color: white;
+}
+#clean>.col12>.wrapper>.row >p{
+   font-size: 55px;
+   margin-bottom: 15px;
+   color: white;
+
+}
+#clean>.col12>.wrapper>.row {
+	padding: 6% 0;
+}
+#clean>.col12>.wrapper>.row>.col12>span{
+font-size: 26px;
+	color: #5d5d5d;
+}
+#clean>.col12>.wrapper>.col2{
+margin-top: 100px;
+}
+
+.myCon{
+color: #333333;
+cursor: pointer;
+background: white;
+padding: 42px 60px;
+}
+
+.myCo:hover{
+color: white;
+}
+.myCo{
+	cursor: pointer;
+padding: 42px 54px;
+color: #a3a1a1;
+}
+.mytv:hover{
+color: white;
+}
+.mytv{
+padding: 42px 55px;
+cursor: pointer;
+color: #a3a1a1;
+}
+/*clean end*/
+
+ /*multi */
+ #multi>.wrapper>.row>.col7>p{
+ 	padding-top: 12%;
+ 	padding-bottom:5%;
+ 	font-size: 30px;
+ 	color:#333333;
+ }
+#multi>.wrapper>.row>.col7>p>b{
+margin-right: 7px;
+}
+#multi>.wrapper>.row>.col7>span{
+  	color:#9c9c9c;
+  	font-size: 17px;
+  }
+#multi>.wrapper>.row>.col7>button{
+    	padding: 25px 22px;
+       position: relative;
+       top:100px;
+    }
+#multi>.wrapper>.row>.col7>.butFirst{
+	color:white;
+	background:#333333;
+	border: transparent; 
+	margin-right:15px;
+}
+#multi>.wrapper>.row>.col7>.butSecond{
+    background: white;
+    color:#333333;
+    border: 1px solid #DDD;
+}
+#multi>.wrapper>.row>.col5>img{
+	position: relative;
+	top:-50px;
+}
+/*multi end*/
+  /*protfolio*/
+  #featSlide>.wrapper>.row>.col3{
+position: relative;
+top:32px;
+}
+#featSlide>.wrapper>.row>.col3>p>b{
+margin-right: 5px;}
+#featSlide>.wrapper>.row>.col3> p{
+font-size: 30px;
+color:#333333;
+}
+#featSlide>.wrapper>.row>.col1>.mycev{
+padding: 25px 32px;
+border: 1px solid #ddd;
+color:#ddd;
+}
+#protfolio>.row>.col3{
+	margin-top: 40px;
+}
+#protfolio>.row>.col3:first-child{
+padding-left:0;
+}
+#protfolio>.row>.col3:last-child{
+padding-right:0;
+}
+#zaba>.wrapper>.row{
+	padding:50px 0;
+}
+/*protfolio end*/
+#team>.wrapper>.col12>.row>.col3{
+padding: 60px 20px;
+}
+#team>.wrapper>.col12>.row>.col3>p>b{
+	margin-right: 5px;
+}
+#team>.wrapper>.col12>.row>.col3>p{
+    font-size: 30px;
+    color: #333333;
+}
+#team{
+	background: url(../photo/team.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 620px;
+}
+/*team end*/
+/*client*/
+#client>.wrapper>.row>.col12{
+	font-size: 25px;
+	margin: 60px 0;
+}
+#client>.wrapper>.row>.col12>p{
+	font-size: 25px;
+	color:#333333;
+
+}
+#client>.wrapper>.row>.col12>p>b{
+margin-right: 5px;
+padding-bottom: 20px
+}
+#client>.wrapper>.row>.col11>span{
+padding: 30px 0;
+font-size: 16px;
+color:#666;
+}
+#client>.wrapper>.row>.col11>span>p{
+  font-size: 13px;
+  color:#ddd;
+}
+#client>.wrapper>.row>.col11>span>p>b{
+	color:#333333 !important;
+
+}
